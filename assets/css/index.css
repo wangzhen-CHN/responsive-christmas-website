@@ -684,7 +684,7 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .container {
     margin-right: var(--mb-1);
     margin-left: var(--mb-1);
@@ -702,9 +702,6 @@ body.dark-theme {
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
-  .home__description {
-    padding: 0 8rem;
-  }
 
   .giving__container {
     grid-template-columns: repeat(2, 142px);
@@ -712,21 +709,12 @@ body.dark-theme {
     gap: 2.5rem 3.5rem;
   }
 
-  .celebrate__description {
-    padding: 0 4rem;
-  }
-
   .gift__container {
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 2rem;
   }
 
-  .giving__container {
-    grid-template-columns: repeat(2, 180px);
-    justify-content: center;
-    gap: 2rem;
-  }
 
   .message__input,
   .message__button {
