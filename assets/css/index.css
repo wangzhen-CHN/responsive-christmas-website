@@ -347,6 +347,7 @@ body.dark-theme {
 /*=============== GIVING ===============*/
 .giving__container {
   grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   gap: 2.5rem 1.5rem;
 }
 
@@ -397,6 +398,7 @@ body.dark-theme {
 /*=============== GIFT ===============*/
 .gift__container {
   grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   gap: 1.5rem;
 }
 
@@ -624,6 +626,7 @@ body.dark-theme {
 .footer__img1,
 .footer__img2 {
   position: absolute;
+  z-index: -10;
   width: 100px;
 }
 
@@ -711,6 +714,12 @@ body.dark-theme {
 
   .celebrate__description {
     padding: 0 4rem;
+  }
+
+  .gift__container {
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+    gap: 2rem;
   }
 
   .giving__container {
